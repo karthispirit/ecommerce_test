@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T00:51:54 EDT" name="Suite1" finished-at="2022-03-29T00:51:54 EDT" duration-ms="41">
+    <groups>
+      <group name="pre">
+        <method signature="test1.start()[pri:0, instance:ecommerce.test1@4d02f94e]" name="start" class="ecommerce.test1"/>
+      </group> <!-- pre -->
+      <group name="post">
+        <method signature="test1.A()[pri:0, instance:ecommerce.test1@4d02f94e]" name="A" class="ecommerce.test1"/>
+        <method signature="test1.start()[pri:0, instance:ecommerce.test1@4d02f94e]" name="start" class="ecommerce.test1"/>
+        <method signature="test1.stop()[pri:0, instance:ecommerce.test1@4d02f94e]" name="stop" class="ecommerce.test1"/>
+      </group> <!-- post -->
+    </groups>
+    <test started-at="2022-03-29T00:51:54 EDT" name="test1" finished-at="2022-03-29T00:51:54 EDT" duration-ms="41">
+      <class name="ecommerce.test1">
+        <test-method signature="A()[pri:0, instance:ecommerce.test1@4d02f94e]" started-at="2022-03-29T00:51:54 EDT" name="A" finished-at="2022-03-29T00:51:54 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method signature="start()[pri:0, instance:ecommerce.test1@4d02f94e]" started-at="2022-03-29T00:51:54 EDT" name="start" finished-at="2022-03-29T00:51:54 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="stop()[pri:0, instance:ecommerce.test1@4d02f94e]" started-at="2022-03-29T00:51:54 EDT" name="stop" finished-at="2022-03-29T00:51:54 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- ecommerce.test1 -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
